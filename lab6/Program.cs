@@ -1,8 +1,4 @@
-﻿using System;
-
-class Program
-{
-    // Объявляем делегат для функции подсчета цифр
+// Объявляем делегат для функции подсчета цифр
     delegate int DigitCountDelegate(int number);
 
     static void Main()
@@ -53,4 +49,3 @@ class Program
             Console.WriteLine($"Число {num} содержит {counter(num)} цифр");
         }
     }
-}
